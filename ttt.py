@@ -44,7 +44,4 @@ while checkGame(face) == True:
    print "\t**** Round ",(counter)," ****\n"
    screen()
    takeAnswer(counter)
-   counter = counter + 1
-
-
-
+   counter += 1
